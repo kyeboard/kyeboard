@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import SideBar from "../components/SideBar.vue"
-</script>
-
 <template>
 <SideBar />
 <div class="w-screen h-screen bg-base flex items-center justify-center text-text px-44">
@@ -23,8 +19,8 @@ import SideBar from "../components/SideBar.vue"
     <div class="right relative">
         <img src="https://avatars.githubusercontent.com/u/115910279?v=4" class="rounded-full" />
         <div class="w-full h-full bg-base/30 flex items-center justify-center absolute top-0 left-0">
-            <div class="w-24 h-24 rounded-full bg-text/10 backdrop-blur">
-                <div class="text info">Learn about me</div>
+            <div class="w-28 h-28 rounded-full bg-text/10 backdrop-blur">
+                <div class="text rounded info">Learn about me</div>
             </div>
         </div>
     </div>
@@ -36,7 +32,9 @@ import CircleType from "circletype";
 import { onMounted } from "vue"
 
 onMounted(() => {
-    const circletype = new CircleType(document.querySelector(""))
+    const circletype = new CircleType(document.querySelector(".rounded"))
+
+    circletype.radius(50);
 })
 </script>
 
