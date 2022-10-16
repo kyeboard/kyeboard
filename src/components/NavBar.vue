@@ -1,5 +1,5 @@
 <template>
-<div class="w-full z-40 h-20 fixed top-0 left-0 border-b text-text font-semibold border-b-surface0/40 flex items-center justify-center">
+<div class="w-full z-40 h-20 fixed top-0 left-0 border-b-2 backdrop-blur-lg bg-base/20 text-text font-semibold border-b-surface0/40 flex items-center justify-center">
     <div class="nav-item mr-8">Home</div>
     <div class="nav-item mx-8">Portfolio</div>
     <div class="nav-item mx-8">Blogs</div>
