@@ -13,6 +13,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "circletype": "^2.3.0",
     "feather-icons": "4",
     "vue": "3",
     "vue-feather": "2",
