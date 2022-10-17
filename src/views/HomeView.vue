@@ -76,41 +76,41 @@
         >
             <div class="text-4xl font-bold">Services</div>
             <div class="servics flex mt-14 gap-x-9 flex-wrap gap-y-9">
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
                     <img src="/designer.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                    <div class="text-gray-300 mt-3 font-bold">Get a new vision to your product</div>
+                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages. Not really good to it, but I am trying my best to master it. Creativity doesn't wait for that perfect moment.</div>
                 </div>
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
+                    <img src="/server.png" class="w-14" />
+                    <div class="mt-4 text-2xl font-bold">Server</div>
+                    <div class="text-gray-300 mt-3 font-bold">Secure and blazingly fast servers</div>
+                    <div class="mt-1 text-overlay2 font-semibold">I build secure and blazingly fast open source web servers with Rust that can powerup serveral tools. They are 100% reliable!</div>
                 </div>
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
+                    <img src="/cloud.png" class="w-14" />
+                    <div class="mt-4 text-2xl font-bold">Cloud</div>
+                    <div class="text-gray-300 mt-3 font-bold">Heavy load on someone's computer</div>
+                    <div class="mt-1 text-overlay2 font-semibold">Deploying to cloud has never been easier! AWS, GCP and Azure are my keen interests. Hoping to build my own cloud in future!</div>
                 </div>
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
+                    <img src="/content.png" class="w-14" />
+                    <div class="mt-4 text-2xl font-bold">Content Creator</div>
+                    <div class="text-gray-300 mt-3 font-bold">With a great power comes a great responsibility</div>
+                    <div class="mt-1 text-overlay2 font-semibold">Inspired by many content creator, I wanna become one myself! It looks fun, coding live and sharing your thoughts with animations.</div>
                 </div>
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
+                    <img src="/product.png" class="w-14" />
+                    <div class="mt-4 text-2xl font-bold">Product Designer</div>
+                    <div class="text-gray-300 mt-3 font-bold">Enriching shops with beautiful merchandise</div>
+                    <div class="mt-1 text-overlay2 font-semibold">Who does not want their creativity to be IRL? I often design merchandise to make it look beautiful and add it to my own shop!</div>
                 </div>
-                <div class="service flex-grow w-96 border-2 border-surface0/40 p-8 rounded-lg">   
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-600 mt-3 font-bold">Get a new vision to your product</div>
-                    <div class="mt-1 text-overlay2 font-semibold">I have recently started designing web pages! Not really good to it, but Im trying by best to master it. Creativity doesn't wait for that perfect moment.</div>
+                <div class="service flex-grow w-96 p-10 rounded-lg">   
+                    <img src="/android.png" class="w-14" />
+                    <div class="mt-4 text-2xl font-bold">Android</div>
+                    <div class="text-gray-300 mt-3 font-bold">Android is Android</div>
+                    <div class="mt-1 text-overlay2 font-semibold">Used to develop cross platform apps using Flutter but soon switched to native Kotlin. Waiting for tauri-rs to be out for Android!</div>
                 </div>
             </div>
         </div>
