@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
-import VueFeather from 'vue-feather';
+import VueFeather from "vue-feather";
 import router from "./router";
 
 import "./assets/main.sass";

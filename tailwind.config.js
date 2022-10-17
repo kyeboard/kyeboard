@@ -4,18 +4,18 @@ module.exports = {
     theme: {
         extend: {
             animation: {
-                floating: "floating 1s ease-in-out infinite"
+                floating: "floating 1s ease-in-out infinite",
             },
             keyframes: {
                 floating: {
                     "0%, 100%": {
-                        transform: "translateY(0px)"
+                        transform: "translateY(0px)",
                     },
                     "50%": {
-                        transform: "translateY(10px)"
-                    }
-                }   
-            }
+                        transform: "translateY(10px)",
+                    },
+                },
+            },
         },
     },
     plugins: [
