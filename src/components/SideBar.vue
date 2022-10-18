@@ -1,6 +1,6 @@
 <template>
     <div
-        class="h-full fixed z-40 top-0 flex-col gap-y-8 left-0 w-20 border-r text-surface1 flex items-center justify-center border-r-surface0/40"
+        class="h-full hidden sm:flex fixed z-40 top-0 flex-col gap-y-8 left-0 w-20 border-r text-surface1 items-center justify-center border-r-surface0/40"
     >
         <a href="https://gitlab.com/tokayakii"
             ><vue-feather type="gitlab" size="21"></vue-feather

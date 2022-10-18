@@ -2,37 +2,37 @@
     <div class="overflow-y-hidden no-scrollbar overflow-x-scroll">
         <SideBar />
         <div
-            class="w-screen h-screen bg-base flex items-center justify-center text-text px-44"
+            class="w-screen sd:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sd:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-44"
         >
-            <div class="left mr-auto w-[40%] relative">
+            <div class="left sm:mr-auto sm:w-[40%] relative p-5 pt-10 sm:pt-0 sm:p-0 w-full">
                 <div
                     class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
                 >
                     Watashi no saito e yōkoso
                 </div>
-                <div class="text-6xl font-bold mt-3 leading-[65px]">
+                <div class="sm:text-6xl text-5xl font-bold mt-3 sm:leading-[65px] leading-[55px]">
                     Fullstack and Android enthusiastic developer<span
                         class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
                         >.</span
                     >
                 </div>
                 <div
-                    class="description leading-6 mt-6 font-semibold text-overlay2 tracking-[0.018rem]"
+                    class="description leading-7 mt-6 font-semibold text-overlay2 tracking-[0.018rem]"
                 >
                     Hi, I am a self-taught, full stack developer! Though I love
                     weekend over frontend or backend. I love building websites
                     using VueJS and blazingly fast tools using Rust. As for the
                     databases, I love using MongoDB and PostgreSQL.
                 </div>
-                <div class="flex w-3/4 mt-9">
+                <div class="sm:flex w-full mt-9">
                     <button
-                        class="bg-gradient-to-r flex items-center justify-center from-[#eecda3] to-[#ef629f] p-4 w-1/2 rounded-xl text-base font-bold"
+                        class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold"
                     >
                         Let's talk
                         <vue-feather type="send" size="20" class="ml-2" />
                     </button>
                     <button
-                        class="bg-surface0/40 ml-4 flex items-center justify-center p-4 w-1/2 rounded-xl text-text font-bold"
+                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold"
                     >
                         Download CV
                         <vue-feather
@@ -43,37 +43,32 @@
                     </button>
                 </div>
             </div>
-            <div class="right relative">
+            <div class="right relative w-2/3 sm:w-fit flex items-center justify-center">
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
                     class="rounded-full"
                 />
-                <div
-                    class="w-full h-full bg-base/30 flex items-center justify-center absolute top-0 left-0"
-                >
-                    <div
-                        class="w-28 h-28 rounded-full relative bg-text/10 backdrop-blur"
-                    >
-                        <div class="text rounded info p-1.5 text-sm">
-                            Learn about me
-                        </div>
-                        <div
-                            class="play absolute top-1/2 flex items-center justify-center left-1/2 h-fit bg-text text-base -translate-x-1/2 p-3 rounded-full -translate-y-1/2"
-                        >
-                            <vue-feather type="play" size="14" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div
-                class="absolute flex items-center justify-center bottom-10 animate-bounce"
-            >
-                Scroll down <vue-feather type="chevron-down" class="ml-2" />
+                <!-- <div -->
+                <!--     class="w-full h-full bg-base/30 flex items-center justify-center absolute top-0 left-0" -->
+                <!-- > -->
+                <!--     <div -->
+                <!--         class="w-28 h-28 rounded-full relative bg-text/10 backdrop-blur" -->
+                <!--     > -->
+                <!--         <div class="text rounded info p-1.5 text-sm"> -->
+                <!--             Learn about me -->
+                <!--         </div> -->
+                <!--         <div -->
+                <!--             class="play absolute top-1/2 flex items-center justify-center left-1/2 h-fit bg-text text-base -translate-x-1/2 p-3 rounded-full -translate-y-1/2" -->
+                <!--         > -->
+                <!--             <vue-feather type="play" size="14" /> -->
+                <!--         </div> -->
+                <!--     </div> -->
+                <!-- </div> -->
             </div>
         </div>
-        <div class="w-screen bg-base pt-10 text-text px-44 relative">
-            <div class="text-4xl font-bold">Services</div>
-            <div class="servics flex mt-14 gap-x-9 flex-wrap gap-y-9">
+        <div class="w-screen bg-base pt-10 text-text sm:px-44 relative">
+            <div class="text-4xl font-bold pl-8">Services</div>
+            <div class="servics flex mt-2 gap-x-9 flex-wrap">
                 <div class="service flex-grow w-96 p-10 rounded-lg">
                     <img src="/designer.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Visual Design</div>
@@ -148,14 +143,14 @@
                 </div>
             </div>
         </div>
-        <div class="w-screen py-12 bg-base pt-10 text-text px-44 relative">
+        <div class="w-screen h-screen sm:h-fit py-12 bg-base pt-10 text-text sm:px-44 px-8 relative">
             <div class="text-4xl font-bold">Blogs</div>
-            <div class="blog mt-10 flex h-[380px]">
+            <div class="blog mt-10 sm:flex h-[380px]">
                 <img
                     src="/blog.png"
-                    class="w-1/2 border-2 border-surface0/40 rounded-lg"
+                    class="sm:w-1/2 border-2 border-surface0/40 rounded-lg"
                 />
-                <div class="info ml-10 pt-5 h-full flex flex-col relative">
+                <div class="info sm:ml-10 pt-5 h-full flex flex-col relative">
                     <div class="tags w-fit">
                         <div
                             class="tag bg-gradient-to-r from-[#eecda3] to-[#ef629f] text-base p-1 rounded-3xl px-4"
@@ -164,7 +159,7 @@
                         </div>
                     </div>
                     <div class="title mt-4 text-3xl font-bold">
-                        Introducing myself, I am tokayakii_!
+                        Introducing myself, I am thevoidcupboard!
                     </div>
                     <div class="title mt-2 text-overlay1 font-semibold">
                         A summary of my life as a programmer!
@@ -172,28 +167,29 @@
                     <div
                         class="title mt-6 text-overlay2 font-semibold leading-8 overflow-fade overflow-scroll"
                     >
-                        Hi, I am tokayakii_, a full stack and an Android
-                        developer. I was introduced programming back when I was
-                        9 years old, in class 4. I started by learning Java,
-                        which my brother used to teach me during the weekends.
-                        Soon, I started to master it by solving bunch of tricky
-                        problems and patterns. Once solving enough questions, my
-                        brother gave me the idea of solve questions on
-                        HackerRank. It had a bunch of complex problems, but I
-                        somehow was able to do it. Soon, I tried out other
-                        languages, and the next language I learnt was Python.
-                        Later, I was introduced to web technologies (HTML, CSS,
-                        and JavaScript). Our school used to teach us HTML,
-                        adding simple input boxes, forms, divs and stuff like
-                        that. I still remember how fuck*ng happy I was when I
-                        first added a route to my application using form
-                        actions. Well IDK, but the truth is the page changing
-                        transition (from one url to another) was one of the main
-                        reason of myself becoming a frontend developer
+                        <!-- Hi, I am tokayakii_, a full stack and an Android -->
+                        <!-- developer. I was introduced programming back when I was -->
+                        <!-- 9 years old, in class 4. I started by learning Java, -->
+                        <!-- which my brother used to teach me during the weekends. -->
+                        <!-- Soon, I started to master it by solving bunch of tricky -->
+                        <!-- problems and patterns. Once solving enough questions, my -->
+                        <!-- brother gave me the idea of solve questions on -->
+                        <!-- HackerRank. It had a bunch of complex problems, but I -->
+                        <!-- somehow was able to do it. Soon, I tried out other -->
+                        <!-- languages, and the next language I learnt was Python. -->
+                        <!-- Later, I was introduced to web technologies (HTML, CSS, -->
+                        <!-- and JavaScript). Our school used to teach us HTML, -->
+                        <!-- adding simple input boxes, forms, divs and stuff like -->
+                        <!-- that. I still remember how fuck*ng happy I was when I -->
+                        <!-- first added a route to my application using form -->
+                        <!-- actions. Well IDK, but the truth is the page changing -->
+                        <!-- transition (from one url to another) was one of the main -->
+                        <!-- reason of myself becoming a frontend developer -->
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis voluptates saepe pariatur velit dolor rem quos fugit aspernatur animi qui, assumenda soluta voluptatum ullam sunt sapiente eaque et enim? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis voluptatum at sequi nisi labore aperiam eveniet nemo nihil animi nostrum, totam dolorum dolore adipisci quibusdam earum hic voluptas consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium magnam consequuntur fugiat iste libero non debitis eaque dicta eos perferendis in voluptate mollitia corporis, labore facere voluptatem? Reprehenderit, explicabo ducimus!
                     </div>
                     <div class="flex mt-4">
-                        <a href="/blog/me" class="text-blue font-semibold flex items-center justify-center">Read more <vue-feather type="arrow-right"  size="20" class="ml-2"/></a>
-                        <div class="sumup ml-auto flex bg-surface0/40 p-2 rounded-xl px-5">
+                        <a href="/blog/me" class="text-blue font-semibold flex items-center justify-center text-xs text:text-base">Read more <vue-feather type="arrow-right"  size="20" class="ml-2"/></a>
+                        <div class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 text-xs sm:text-base">
                             <div class="time flex items-center justify-center"><vue-feather type="clock" size="16" class="mr-2" />10 min</div>
                             <div class="time ml-6 flex items-center justify-center"><vue-feather type="eye" size="16" class="mr-2" />1408</div>
                         </div>
@@ -201,21 +197,25 @@
                 </div>
             </div>
         </div>
-        <div class="w-screen py-12 bg-base pt-32 text-text flex items-center justify-center flex-col px-44 relative">
+        <div class="w-screen py-12 bg-base pt-32 text-text flex items-center justify-center flex-col sm:px-44 relative">
             <div class="text-4xl font-bold text-center">Get in Touch</div>
-            <div class="w-1/2 text-overlay1 font-semibold text-center mt-4">Wanna talk about a project? Contact me below! I will try to respond as soon as possible</div>
-            <div class="w-1/2 flex mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center">
+            <div class="sm:w-1/2 px-4 text-overlay1 font-semibold text-center mt-4">Wanna talk about a project? Contact me below! I will try to respond as soon as possible</div>
+            <div class="w-1/2 mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center hidden sm:flex">
                 <input class="h-full w-full bg-transparent px-4 placeholder-overlay1 focus:outline-none" placeholder="Enter your email address..." />
                 <button class="bg-blue px-6 text-black rounded-3xl py-2 font-semibold">Sumbit</button>
+            </div>
+            <div class="w-full mt-4 flex flex-col sm:hidden">
+                <input class="h-full bg-surface0/40 p-5 sm:p-0 rounded-3xl mx-4 px-8 placeholder-overlay1 focus:outline-none" placeholder="Enter your email address..." />
+                <button class="bg-blue px-6 text-black rounded-3xl p-4 mt-4 mx-4 font-semibold">Sumbit</button>
             </div>
         </div>
         <div class="w-screen h-52 pt-14 bg-base">
             <div class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full">
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
-                    class="h-12 w-12 rounded-full mb-6"
+                    class="h-12 w-12 rounded-full mb-3"
                 />
-                <div class="flex items-center justify-center font-semibold">
+                <div class="flex items-center font-semibold">
                     <i class="fa-solid fa-copyright mr-2"></i>
                     <span>All right reserved | tokayakii_ - 2022</span>
                 </div>
