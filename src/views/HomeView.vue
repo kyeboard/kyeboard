@@ -17,7 +17,7 @@
                     >
                 </div>
                 <div
-                    class="description mt-6 font-semibold text-overlay2 tracking-[0.018rem]"
+                    class="description leading-6 mt-6 font-semibold text-overlay2 tracking-[0.018rem]"
                 >
                     Hi, I am a self-taught, full stack developer! Though I love
                     weekend over frontend or backend. I love building websites
@@ -71,7 +71,7 @@
                 Scroll down <vue-feather type="chevron-down" class="ml-2" />
             </div>
         </div>
-        <div class="w-screen h-screen bg-base pt-10 text-text px-44 relative">
+        <div class="w-screen bg-base pt-10 text-text px-44 relative">
             <div class="text-4xl font-bold">Services</div>
             <div class="servics flex mt-14 gap-x-9 flex-wrap gap-y-9">
                 <div class="service flex-grow w-96 p-10 rounded-lg">
@@ -148,7 +148,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-screen h-screen bg-base pt-10 text-text px-44 relative">
+        <div class="w-screen py-12 bg-base pt-10 text-text px-44 relative">
             <div class="text-4xl font-bold">Blogs</div>
             <div class="blog mt-10 flex h-[380px]">
                 <img
@@ -193,11 +193,31 @@
                     </div>
                     <div class="flex mt-4">
                         <a href="/blog/me" class="text-blue font-semibold flex items-center justify-center">Read more <vue-feather type="arrow-right"  size="20" class="ml-2"/></a>
-                        <div class="sumup ml-auto flex bg-surface0/40 p-3 rounded-xl px-6">
+                        <div class="sumup ml-auto flex bg-surface0/40 p-2 rounded-xl px-5">
                             <div class="time flex items-center justify-center"><vue-feather type="clock" size="16" class="mr-2" />10 min</div>
                             <div class="time ml-6 flex items-center justify-center"><vue-feather type="eye" size="16" class="mr-2" />1408</div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-screen py-12 bg-base pt-32 text-text flex items-center justify-center flex-col px-44 relative">
+            <div class="text-4xl font-bold text-center">Get in Touch</div>
+            <div class="w-1/2 text-overlay1 font-semibold text-center mt-4">Wanna talk about a project? Contact me below! I will try to respond as soon as possible</div>
+            <div class="w-1/2 flex mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center">
+                <input class="h-full w-full bg-transparent px-4 placeholder-overlay1 focus:outline-none" placeholder="Enter your email address..." />
+                <button class="bg-blue px-6 text-black rounded-3xl py-2 font-semibold">Sumbit</button>
+            </div>
+        </div>
+        <div class="w-screen h-52 pt-14 bg-base">
+            <div class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full">
+                <img
+                    src="https://avatars.githubusercontent.com/u/115910279?v=4"
+                    class="h-12 w-12 rounded-full mb-6"
+                />
+                <div class="flex items-center justify-center font-semibold">
+                    <i class="fa-solid fa-copyright mr-2"></i>
+                    <span>All right reserved | tokayakii_ - 2022</span>
                 </div>
             </div>
         </div>
