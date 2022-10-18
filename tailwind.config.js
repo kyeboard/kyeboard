@@ -5,6 +5,8 @@ module.exports = {
         extend: {
             animation: {
                 floating: "floating 1s ease-in-out infinite",
+                grow: "grow 0.6s ease-in-out forwards",
+                fade_in: "fade_in 0.6s ease-in-out forwards"
             },
             keyframes: {
                 floating: {
@@ -13,6 +15,26 @@ module.exports = {
                     },
                     "50%": {
                         transform: "translateY(10px)",
+                    },
+                },
+                grow: {
+                    "0%": {
+                        height: "0px",
+                        opacity: 0.9
+                    },
+                    "100%": {
+                        height: "100vh",
+                        opacity: 1
+                    },
+                },
+                fade_in: {
+                    "0%": {
+                        opacity: 0,
+                        transform: "translateY(-10px)"
+                    },
+                    "100%": {
+                        opacity: 1,
+                        transform: "translateY(0px)"
                     },
                 },
             },

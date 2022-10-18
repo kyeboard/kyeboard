@@ -143,9 +143,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-screen h-screen sm:h-fit py-12 bg-base pt-10 text-text sm:px-44 px-8 relative">
+        <div class="w-screen min-h-[660px] sm:h-fit bg-base pt-10 text-text sm:px-44 px-8 relative">
             <div class="text-4xl font-bold">Blogs</div>
-            <div class="blog mt-10 sm:flex h-[380px]">
+            <div class="blog mt-6 sm:flex h-[380px]">
                 <img
                     src="/blog.png"
                     class="sm:w-1/2 border-2 border-surface0/40 rounded-lg"
@@ -159,7 +159,7 @@
                         </div>
                     </div>
                     <div class="title mt-4 text-3xl font-bold">
-                        Introducing myself, I am thevoidcupboard!
+                        Introducing myself, I am kiyotaka!
                     </div>
                     <div class="title mt-2 text-overlay1 font-semibold">
                         A summary of my life as a programmer!
@@ -189,15 +189,15 @@
                     </div>
                     <div class="flex mt-4">
                         <a href="/blog/me" class="text-blue font-semibold flex items-center justify-center text-xs text:text-base">Read more <vue-feather type="arrow-right"  size="20" class="ml-2"/></a>
-                        <div class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 text-xs sm:text-base">
-                            <div class="time flex items-center justify-center"><vue-feather type="clock" size="16" class="mr-2" />10 min</div>
-                            <div class="time ml-6 flex items-center justify-center"><vue-feather type="eye" size="16" class="mr-2" />1408</div>
+                        <div class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 sm:px-4 text-xs sm:text-base">
+                            <div class="time flex items-center justify-center text-text"><vue-feather type="clock" size="16" class="mr-2" />10 min</div>
+                            <div class="time ml-6 flex items-center justify-center text-text"><vue-feather type="eye" size="16" class="mr-2" />1408</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-screen py-12 bg-base pt-32 text-text flex items-center justify-center flex-col sm:px-44 relative">
+        <div class="w-screen pb-12 pt-20 sm:pt-0 bg-base text-text flex items-center justify-center flex-col sm:px-44 relative">
             <div class="text-4xl font-bold text-center">Get in Touch</div>
             <div class="sm:w-1/2 px-4 text-overlay1 font-semibold text-center mt-4">Wanna talk about a project? Contact me below! I will try to respond as soon as possible</div>
             <div class="w-1/2 mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center hidden sm:flex">
@@ -209,7 +209,7 @@
                 <button class="bg-blue px-6 text-black rounded-3xl p-4 mt-4 mx-4 font-semibold">Sumbit</button>
             </div>
         </div>
-        <div class="w-screen h-52 pt-14 bg-base">
+        <div class="w-screen bg-base h-52 pt-14">
             <div class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full">
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
@@ -229,9 +229,9 @@ import CircleType from "circletype";
 import SideBar from "../components/SideBar.vue";
 import { onMounted } from "vue";
 
-onMounted(() => {
-    const circletype = new CircleType(document.querySelector(".rounded"));
-
-    circletype.radius(48);
-});
+// onMounted(() => {
+//     const circletype = new CircleType(document.querySelector(".rounded"));
+//
+//     circletype.radius(48);
+// });
 </script>
