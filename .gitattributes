@@ -1,0 +1,2 @@
+# I didnt want to use JavaScript
+*.js linguist-language=TypeScript
