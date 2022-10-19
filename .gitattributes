@@ -1,2 +1,3 @@
 # I didnt want to use JavaScript
 *.js linguist-language=TypeScript
+*.cjs linguist-language=TypeScript
