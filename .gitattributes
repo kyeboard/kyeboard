@@ -1,3 +1,6 @@
 # I didnt want to use JavaScript
 *.js linguist-language=TypeScript
 *.cjs linguist-language=TypeScript
+
+# Well the root html is a VueJS file at the end of the day
+*.html linguist-language=Vue
