@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, inject } from "vue";
+import { ref , inject } from "vue";
 import Surreal from "surrealdb.js";
 import type { Notyf } from "notyf";
 
@@ -9,18 +9,15 @@ const db = new Surreal("http://127.0.0.1:8000/rpc");
 const notyf = inject("notyf") as Notyf;
 
 const authenticate = async () => {
-    try {
+    try {         
         await db.signin({
             user: username.value,
             pass: password.value,
         });
 
-        localStorage.setItem("username", username.value);
-        localStorage.setItem("password", password.value);
-
-        notyf.success("Successfully logged in! Redirecting...");
-    } catch (err) {
-        notyf.error("Invalid username or password!");
+        notyf.success("Successfully logged in! Redirecting...")
+    } catch(err) {
+        notyf.error("Invalid username or password!")
     }
 };
 </script>
@@ -30,10 +27,7 @@ const authenticate = async () => {
         class="w-screen h-screen bg-base flex items-center justify-center flex-col text-text"
     >
         <div class="text-4xl font-extrabold">Welcome to Admin Panel!</div>
-        <div class="font-semibold text-overlay1 mt-2">
-            Well there is only one user, and thats kiyotaka! Good luck guessing
-            the password =)
-        </div>
+        <div class="font-extrabold text-overlay1">Well there is only one user</div>
         <span class="font-bold text-left w-1/2 mt-6">Username</span>
         <input
             class="bg-surface0/40 p-4 w-1/2 mt-2 rounded-xl px-6 placeholder-overlay1 font-semibold"
