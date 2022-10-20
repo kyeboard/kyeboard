@@ -4,13 +4,17 @@
         <div
             class="w-screen sd:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sd:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-44"
         >
-            <div class="left sm:mr-auto sm:w-[40%] relative p-5 pt-10 sm:pt-0 sm:p-0 w-full">
+            <div
+                class="left sm:mr-auto sm:w-[40%] relative p-5 pt-10 sm:pt-0 sm:p-0 w-full"
+            >
                 <div
                     class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
                 >
                     Watashi no saito e yōkoso
                 </div>
-                <div class="sm:text-6xl text-5xl font-bold mt-3 sm:leading-[65px] leading-[55px]">
+                <div
+                    class="sm:text-6xl text-5xl font-bold mt-3 sm:leading-[65px] leading-[55px]"
+                >
                     Fullstack and Android enthusiastic developer<span
                         class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
                         >.</span
@@ -25,14 +29,14 @@
                     databases, I love using MongoDB and PostgreSQL.
                 </div>
                 <div class="sm:flex w-full mt-9">
-                    <button
-                        class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold"
-                    >
-                        Let's talk
-                        <vue-feather type="send" size="20" class="ml-2" />
-                    </button>
-                    <button
-                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold"
+                        <a
+                            class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold" href="/contact"
+                        >
+                            Let's talk
+                            <vue-feather type="send" size="20" class="ml-2" />
+                        </a>
+                    <a
+                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold" href="/resume"
                     >
                         Download CV
                         <vue-feather
@@ -40,10 +44,12 @@
                             size="20"
                             class="ml-4"
                         />
-                    </button>
+                    </a>
                 </div>
             </div>
-            <div class="right relative w-2/3 sm:w-fit flex items-center justify-center">
+            <div
+                class="right relative w-2/3 sm:w-fit flex items-center justify-center"
+            >
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
                     class="rounded-full"
@@ -143,7 +149,9 @@
                 </div>
             </div>
         </div>
-        <div class="w-screen min-h-[660px] sm:h-fit bg-base pt-10 text-text sm:px-44 px-8 relative">
+        <div
+            class="w-screen min-h-[720px] sm:h-fit bg-base pt-24 text-text sm:px-44 px-8 relative"
+        >
             <div class="text-4xl font-bold">Blogs</div>
             <div class="blog mt-6 sm:flex h-[380px]">
                 <img
@@ -185,39 +193,102 @@
                         <!-- actions. Well IDK, but the truth is the page changing -->
                         <!-- transition (from one url to another) was one of the main -->
                         <!-- reason of myself becoming a frontend developer -->
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum blanditiis voluptates saepe pariatur velit dolor rem quos fugit aspernatur animi qui, assumenda soluta voluptatum ullam sunt sapiente eaque et enim? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque facilis voluptatum at sequi nisi labore aperiam eveniet nemo nihil animi nostrum, totam dolorum dolore adipisci quibusdam earum hic voluptas consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium magnam consequuntur fugiat iste libero non debitis eaque dicta eos perferendis in voluptate mollitia corporis, labore facere voluptatem? Reprehenderit, explicabo ducimus!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Laborum blanditiis voluptates saepe pariatur velit
+                        dolor rem quos fugit aspernatur animi qui, assumenda
+                        soluta voluptatum ullam sunt sapiente eaque et enim?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit. Itaque facilis voluptatum at sequi nisi labore
+                        aperiam eveniet nemo nihil animi nostrum, totam dolorum
+                        dolore adipisci quibusdam earum hic voluptas
+                        consectetur! Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Accusantium magnam consequuntur fugiat
+                        iste libero non debitis eaque dicta eos perferendis in
+                        voluptate mollitia corporis, labore facere voluptatem?
+                        Reprehenderit, explicabo ducimus!
                     </div>
                     <div class="flex mt-4">
-                        <a href="/blog/me" class="text-blue font-semibold flex items-center justify-center text-xs text:text-base">Read more <vue-feather type="arrow-right"  size="20" class="ml-2"/></a>
-                        <div class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 sm:px-4 text-xs sm:text-base">
-                            <div class="time flex items-center justify-center text-text"><vue-feather type="clock" size="16" class="mr-2" />10 min</div>
-                            <div class="time ml-6 flex items-center justify-center text-text"><vue-feather type="eye" size="16" class="mr-2" />1408</div>
+                        <a
+                            href="/blog/me"
+                            class="text-blue font-semibold flex items-center justify-center text-xs text:text-base"
+                            >Read more
+                            <vue-feather
+                                type="arrow-right"
+                                size="20"
+                                class="ml-2"
+                        /></a>
+                        <div
+                            class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 sm:px-4 text-xs sm:text-base"
+                        >
+                            <div
+                                class="time flex items-center justify-center text-text"
+                            >
+                                <vue-feather
+                                    type="clock"
+                                    size="16"
+                                    class="mr-2"
+                                />10 min
+                            </div>
+                            <div
+                                class="time ml-6 flex items-center justify-center text-text"
+                            >
+                                <vue-feather
+                                    type="eye"
+                                    size="16"
+                                    class="mr-2"
+                                />1408
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="w-screen pb-12 pt-20 sm:pt-0 bg-base text-text flex items-center justify-center flex-col sm:px-44 relative">
+        <div
+            class="w-screen pb-12 pt-20 sm:pt-0 bg-base text-text flex items-center justify-center flex-col sm:px-44 relative"
+        >
             <div class="text-4xl font-bold text-center">Get in Touch</div>
-            <div class="sm:w-1/2 px-4 text-overlay1 font-semibold text-center mt-4">Wanna talk about a project? Contact me below! I will try to respond as soon as possible</div>
-            <div class="w-1/2 mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center hidden sm:flex">
-                <input class="h-full w-full bg-transparent px-4 placeholder-overlay1 focus:outline-none" placeholder="Enter your email address..." />
-                <button class="bg-blue px-6 text-black rounded-3xl py-2 font-semibold">Sumbit</button>
+            <div
+                class="sm:w-1/2 px-4 text-overlay1 font-semibold text-center mt-4"
+            >
+                Wanna talk about a project? Contact me below! I will try to
+                respond as soon as possible
+            </div>
+            <div
+                class="w-1/2 mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center hidden sm:flex"
+            >
+                <input
+                    class="h-full w-full bg-transparent px-4 placeholder-overlay1 focus:outline-none"
+                    placeholder="Enter your email address..."
+                />
+                <button
+                    class="bg-blue px-6 text-black rounded-3xl py-2 font-semibold"
+                >
+                    Sumbit
+                </button>
             </div>
             <div class="w-full mt-4 flex flex-col sm:hidden">
-                <input class="h-full bg-surface0/40 p-5 sm:p-0 rounded-3xl mx-4 px-8 placeholder-overlay1 focus:outline-none" placeholder="Enter your email address..." />
-                <button class="bg-blue px-6 text-black rounded-3xl p-4 mt-4 mx-4 font-semibold">Sumbit</button>
+                <input
+                    class="h-full bg-surface0/40 p-5 sm:p-0 rounded-3xl mx-4 px-8 placeholder-overlay1 focus:outline-none"
+                    placeholder="Enter your email address..."
+                />
+                <button
+                    class="bg-blue px-6 text-black rounded-3xl p-4 mt-4 mx-4 font-semibold"
+                >
+                    Sumbit
+                </button>
             </div>
         </div>
         <div class="w-screen bg-base h-52 pt-14">
-            <div class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full">
+            <div
+                class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full"
+            >
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
                     class="h-12 w-12 rounded-full mb-3"
                 />
                 <div class="flex items-center font-semibold">
                     <i class="fa-solid fa-copyright mr-2"></i>
-                    <span>All right reserved | tokayakii_ - 2022</span>
+                    <span>All right reserved | kiyotaka - 2022</span>
                 </div>
             </div>
         </div>

@@ -18,8 +18,7 @@ const db = new Surreal("http://127.0.0.1:8000/rpc");
         pass: "root",
     });
 
-
-    await db.use("test" , "test")
+    await db.use("test", "test");
 
     await db.create("request", {
         first_name: "John",
@@ -27,7 +26,7 @@ const db = new Surreal("http://127.0.0.1:8000/rpc");
         email: "johndoe@gmail.com",
         message: "Hii! I am John Doe and love your finest works!",
     });
-    
-    console.log(await db.select("request"))
+
+    console.log(await db.select("request"));
 })();
 </script>
