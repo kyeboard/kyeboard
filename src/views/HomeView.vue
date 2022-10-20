@@ -2,7 +2,7 @@
     <div class="overflow-y-hidden no-scrollbar overflow-x-scroll">
         <SideBar />
         <div
-            class="w-screen sd:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sd:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-44"
+            class="w-screen sm:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sm:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-44"
         >
             <div
                 class="left sm:mr-auto sm:w-[40%] relative p-5 pt-10 sm:pt-0 sm:p-0 w-full"
@@ -52,7 +52,7 @@
             >
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
-                    class="rounded-full"
+                    class="rounded-full w-3/4 sd:w-auto"
                 />
                 <!-- <div -->
                 <!--     class="w-full h-full bg-base/30 flex items-center justify-center absolute top-0 left-0" -->
