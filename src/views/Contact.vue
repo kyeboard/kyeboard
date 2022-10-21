@@ -18,7 +18,7 @@
                 ></div>
                 <div class="font-bold text-2xl">Contact Information</div>
                 <div class="font-semibold mt-2 text-overlay2">
-                    Fill up the and I will be back as soon as possible!
+                    Fill up the form and I will be back as soon as possible!
                 </div>
                 <div class="mt-6 text-overlay2 flex items-center font-semibold">
                     <vue-feather type="mail" size="20" class="mr-3" />

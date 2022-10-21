@@ -29,14 +29,16 @@
                     databases, I love using MongoDB and PostgreSQL.
                 </div>
                 <div class="sm:flex w-full mt-9">
-                        <a
-                            class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold" href="/contact"
-                        >
-                            Let's talk
-                            <vue-feather type="send" size="20" class="ml-2" />
-                        </a>
                     <a
-                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold" href="/resume"
+                        class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold"
+                        href="/contact"
+                    >
+                        Let's talk
+                        <vue-feather type="send" size="20" class="ml-2" />
+                    </a>
+                    <a
+                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold"
+                        href="/resume"
                     >
                         Download CV
                         <vue-feather

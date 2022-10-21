@@ -6,13 +6,13 @@ const dropdown = ref<HTMLDivElement | null>(null);
 const open_dropdown = () => {
     if (dropdown.value) {
         if (dropdown.value.classList.contains("hidden")) {
-            dropdown.value.classList.remove(...["hidden" , "animate-shrink"]);
+            dropdown.value.classList.remove(...["hidden", "animate-shrink"]);
             dropdown.value.classList.add(
                 ...["flex", "animate-grow", "opacity-0"]
             );
 
             dropdown.value.querySelectorAll(".nav-item").forEach((e) => {
-                e.classList.remove("animate-fade_out")
+                e.classList.remove("animate-fade_out");
                 e.classList.add("animate-fade_in");
             });
 
@@ -28,7 +28,6 @@ const open_dropdown = () => {
                 .querySelector(".cross")
                 ?.classList.add("animate-fade_in");
 
-
             dropdown.value
                 .querySelector(".quick_links")
                 ?.classList.add("animate-fade_in");
@@ -40,7 +39,7 @@ const close = () => {
     if (dropdown.value) {
         if (!dropdown.value.classList.contains("hidden")) {
             dropdown.value.querySelectorAll(".nav-item").forEach((e) => {
-                e.classList.remove("animate-fade_in")
+                e.classList.remove("animate-fade_in");
                 e.classList.add("animate-fade_out");
             });
 
@@ -60,23 +59,16 @@ const close = () => {
                 .querySelector(".cross")
                 ?.classList.add("animate-fade_out");
 
-            dropdown.value.classList.remove(
-                ...["animate-grow"]
-            );
+            dropdown.value.classList.remove(...["animate-grow"]);
 
-            dropdown.value.classList.add(
-                ...["animate-shrink"]
-            );
-            
+            dropdown.value.classList.add(...["animate-shrink"]);
+
             setTimeout(() => {
-                dropdown.value?.classList.add("hidden")
-            } , 480)
+                dropdown.value?.classList.add("hidden");
+            }, 480);
         }
     }
 };
-
-
-
 </script>
 
 <template>
