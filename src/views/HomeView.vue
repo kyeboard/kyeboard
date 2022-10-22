@@ -1,5 +1,5 @@
 <template>
-    <div class="overflow-y-hidden no-scrollbar overflow-x-scroll">
+    <div class="overflow-y-hidden no-scrollbar smooth-scroll overflow-x-scroll">
         <SideBar />
         <div
             class="w-screen sm:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sm:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-44"
@@ -220,7 +220,7 @@
                                 class="ml-2"
                         /></a>
                         <div
-                            class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 sm:px-4 text-xs sm:text-base"
+                            class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-2 rounded-xl px-5 sm:px-6 text-xs sm:text-base"
                         >
                             <div
                                 class="time flex items-center justify-center text-text"
@@ -282,7 +282,7 @@
         </div>
         <div class="w-screen bg-base h-52 pt-14">
             <div
-                class="w-[1600px] flex flex-col text-overlay1 items-center pt-12 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[1600px] rounded-full"
+                class="w-[2000px] flex flex-col text-overlay1 items-center pt-6 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[2000px] rounded-full"
             >
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
@@ -297,14 +297,7 @@
     </div>
 </template>
 
-<script setup>
-import CircleType from "circletype";
-import SideBar from "../components/SideBar.vue";
-import { onMounted } from "vue";
+<script setup lang="ts">
+import SideBar from '@/components/SideBar.vue';
 
-// onMounted(() => {
-//     const circletype = new CircleType(document.querySelector(".rounded"));
-//
-//     circletype.radius(48);
-// });
 </script>

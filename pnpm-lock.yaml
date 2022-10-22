@@ -25,6 +25,7 @@ specifiers:
   postcss: ^8.4.18
   prettier: ^2.5.1
   sass: ^1.55.0
+  smooth-scrollbar: ^8.8.1
   start-server-and-test: ^1.14.0
   tailwindcss: ^3.1.8
   typescript: ~4.7.4
@@ -38,6 +39,7 @@ specifiers:
 dependencies:
   circletype: 2.3.0
   feather-icons: 4.29.0
+  smooth-scrollbar: 8.8.1
   vue: 3.2.41
   vue-feather: 2.0.0_rc4brm7xcb5v24sddtzxnqmk5u
   vue-router: 4.1.5_vue@3.2.41
@@ -2734,6 +2736,14 @@ packages:
       p-locate: 5.0.0
     dev: true
 
+  /lodash.clamp/4.0.3:
+    resolution: {integrity: sha512-HvzRFWjtcguTW7yd8NJBshuNaCa8aqNFtnswdT7f/cMd/1YKy5Zzoq4W/Oxvnx9l7aeY258uSdDfM793+eLsVg==}
+    dev: false
+
+  /lodash.debounce/4.0.8:
+    resolution: {integrity: sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==}
+    dev: false
+
   /lodash.merge/4.6.2:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
@@ -3462,6 +3472,15 @@ packages:
       is-fullwidth-code-point: 3.0.0
     dev: true
 
+  /smooth-scrollbar/8.8.1:
+    resolution: {integrity: sha512-FQDRtdLTRye8LdRHohNAxh0hyo7gl8+APfA+8Qu5S38MBqR8/WqOoRVzjizH6FTdbU1qGsB7gs8LhMeFJ4Jr8g==}
+    dependencies:
+      core-js: 3.25.5
+      lodash.clamp: 4.0.3
+      lodash.debounce: 4.0.8
+      tslib: 1.14.1
+    dev: false
+
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
@@ -3725,7 +3744,6 @@ packages:
 
   /tslib/1.14.1:
     resolution: {integrity: sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==}
-    dev: true
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}

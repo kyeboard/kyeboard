@@ -99,12 +99,12 @@ const close = () => {
             <div class="cross ml-auto mr-5 mt-7" @click="close()">
                 <vue-feather type="x" />
             </div>
-            <div class="nav-item">Home</div>
-            <div class="nav-item">Portfolio</div>
-            <div class="nav-item">Blogs</div>
-            <div class="nav-item">Courses</div>
-            <div class="nav-item">Store</div>
-            <div class="nav-item">Contact</div>
+            <a class="nav-item" href="/">Home</a>
+            <a class="nav-item" href="/resume">Resume</a>
+            <a class="nav-item" href="/blogs">Blogs</a>
+            <a class="nav-item" href="/courses">Courses</a>
+            <a class="nav-item" href="/store">Store</a>
+            <a class="nav-item" href="/contact">Contact</a>
             <div class="quick_links flex gap-x-8 mt-8 text-overlay2">
                 <a href="https://gitlab.com/tokayakii"
                     ><vue-feather type="gitlab" size="21"></vue-feather

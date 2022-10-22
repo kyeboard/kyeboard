@@ -1,5 +1,5 @@
 <template>
-    <div class="w-screen h-screen overflow-scroll bg-base text-text pt-32 sm:px-44 px-4 flex">
+    <div class="w-screen h-screen overflow-scroll bg-base text-text pt-32 sm:px-[5%] md:px-[10%] px-4 flex">
         <div class="left w-full">
             <div class="bg-surface0/20 w-full p-6 px-8 rounded-lg">
                 <div class="info flex block w-full">
@@ -34,14 +34,14 @@
                             <div class="card flex items-center justify-center w-fit">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="mail" size="18" /></div>
                                 <div class="info ml-6">
-                                    <div class="text-overlay2 font-bold">me@kyeboard.xyz</div>
+                                    <div class="font-bold">me@kyeboard.xyz</div>
                                     <div class="text-overlay1 font-semibold">Email Address</div>
                                 </div>
                             </div>
                             <div class="card mt-6 flex items-center justify-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><i class="fa-regular fa-cake-candles"></i></div>
                                 <div class="info ml-6">
-                                    <div class="text-overlay2 font-bold">22nd September, 2007</div>
+                                    <div class="font-bold">22nd September, 2007</div>
                                     <div class="text-overlay1 font-semibold">15 years old</div>
                                 </div>
                             </div>
@@ -50,14 +50,14 @@
                             <div class="card flex items-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="smartphone" size="18" /></div>
                                 <div class="info ml-6">
-                                    <div class="text-overlay2 font-bold">+91 (933) 091 05 79</div>
+                                    <div class="font-bold">+91 (933) 091 05 79</div>
                                     <div class="text-overlay1 font-semibold">Indian Number</div>
                                 </div>
                             </div>
                             <div class="card mt-6 flex items-center justify-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="dollar-sign" size="18" /></div>
                                 <div class="info ml-6">
-                                    <div class="text-overlay2 font-bold">$2000</div>
+                                    <div class="font-bold">$2000</div>
                                     <div class="text-overlay1 font-semibold truncate">Expected Salary (intern)</div>
                                 </div>
                             </div>
@@ -67,14 +67,14 @@
                     <div class="card mt-6 flex items-center justify-center w-fit">
                         <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="map-pin" size="18" /></div>
                         <div class="info ml-6">
-                            <div class="text-overlay2 font-bold">Kolkata, West Bengal, India</div>
+                            <div class="font-bold">Kolkata, West Bengal, India</div>
                             <div class="text-overlay1 font-semibold">Location</div>
                         </div>
                     </div>
                     <div class="card mt-6 flex items-center justify-center w-fit">
                         <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="smile" size="18" /></div>
                         <div class="info ml-6">
-                            <div class="text-overlay2 font-bold">Remote, Part-Time, Internship, Freelance</div>
+                            <div class="font-bold">Remote, Part-Time, Internship, Freelance</div>
                             <div class="text-overlay1 font-semibold">Work Type</div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@
             </div>
             <div class="bg-surface0/20 w-full p-6 px-10 rounded-lg">
                 <div class="text-2xl font-bold">Skills</div>
-                <div class="card mt-6 flex flex-wrap gap-x-4 gap-y-4">
+                <div class="card mt-6 flex flex-wrap gap-x-4 gap-y-4 font-bold">
                     <div class="skill bg-surface0/40 p-3 rounded-lg px-6">Kotlin</div>
                     <div class="skill bg-surface0/40 p-3 rounded-lg px-6">HTML / CSS / SASS</div>
                     <div class="skill bg-surface0/40 p-3 rounded-lg px-6">JavaScript / TypeScript</div>
