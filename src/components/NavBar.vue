@@ -86,7 +86,7 @@ const close = () => {
         />
         <div class="flex hidden sm:flex">
             <a class="nav-item mx-8" href="/courses">Courses</a>
-            <a class="nav-item mx-8" href="/store">Store</a>
+            <a class="nav-item mx-8" href="/projects">Projects</a>
             <a class="nav-item ml-8" href="/contact">Contact</a>
         </div>
         <div class="sm:hidden ml-auto mr-5" @click="open_dropdown()">
