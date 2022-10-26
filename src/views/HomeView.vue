@@ -21,7 +21,7 @@
                     >
                 </div>
                 <div
-                    class="description leading-7 mt-6 font-semibold text-overlay2 tracking-[0.018rem]"
+                    class="description leading-7 mt-6 font-semibold text-overlay2 tracking-[0.016rem]"
                 >
                     Hi, I am a self-taught, full stack developer! Though I love
                     weekend over frontend or backend. I love building websites
@@ -56,22 +56,6 @@
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
                     class="rounded-full w-3/4 sd:w-auto"
                 />
-                <!-- <div -->
-                <!--     class="w-full h-full bg-base/30 flex items-center justify-center absolute top-0 left-0" -->
-                <!-- > -->
-                <!--     <div -->
-                <!--         class="w-28 h-28 rounded-full relative bg-text/10 backdrop-blur" -->
-                <!--     > -->
-                <!--         <div class="text rounded info p-1.5 text-sm"> -->
-                <!--             Learn about me -->
-                <!--         </div> -->
-                <!--         <div -->
-                <!--             class="play absolute top-1/2 flex items-center justify-center left-1/2 h-fit bg-text text-base -translate-x-1/2 p-3 rounded-full -translate-y-1/2" -->
-                <!--         > -->
-                <!--             <vue-feather type="play" size="14" /> -->
-                <!--         </div> -->
-                <!--     </div> -->
-                <!-- </div> -->
             </div>
         </div>
         <div class="w-screen bg-base pt-10 text-text sm:px-44 relative">
@@ -80,10 +64,10 @@
                 <div class="service flex-grow w-96 p-10 rounded-lg">
                     <img src="/designer.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-300 mt-3 font-bold">
+                    <div class="text-overlay2 mt-3 font-bold">
                         Get a new vision to your product
                     </div>
-                    <div class="mt-1 text-overlay2 font-semibold">
+                    <div class="mt-1 text-overlay3 font-semibold">
                         I have recently started designing web pages. Not really
                         good to it, but I am trying my best to master it.
                         Creativity doesn't wait for that perfect moment.
@@ -92,10 +76,10 @@
                 <div class="service flex-grow w-96 p-10 rounded-lg">
                     <img src="/server.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Server</div>
-                    <div class="text-gray-300 mt-3 font-bold">
+                    <div class="text-overlay2 mt-3 font-bold">
                         Secure and blazingly fast servers
                     </div>
-                    <div class="mt-1 text-overlay2 font-semibold">
+                    <div class="mt-1 text-overlay3 font-semibold">
                         I build secure and blazingly fast open source web
                         servers with Rust that can powerup serveral tools. They
                         are 100% reliable!
@@ -104,10 +88,10 @@
                 <div class="service flex-grow w-96 p-10 rounded-lg">
                     <img src="/cloud.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Cloud</div>
-                    <div class="text-gray-300 mt-3 font-bold">
+                    <div class="text-overlay2 mt-3 font-bold">
                         Heavy load on someone's computer
                     </div>
-                    <div class="mt-1 text-overlay2 font-semibold">
+                    <div class="mt-1 text-overlay3 font-semibold">
                         Deploying to cloud has never been easier! AWS, GCP and
                         Azure are my keen interests. Hoping to build my own
                         cloud in future!
@@ -116,10 +100,10 @@
                 <div class="service flex-grow w-96 p-10 rounded-lg">
                     <img src="/content.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Content Creator</div>
-                    <div class="text-gray-300 mt-3 font-bold">
+                    <div class="text-overlay2 mt-3 font-bold">
                         With a great power comes a great responsibility
                     </div>
-                    <div class="mt-1 text-overlay2 font-semibold">
+                    <div class="mt-1 text-overlay3 font-semibold">
                         Inspired by many content creator, I wanna become one
                         myself! It looks fun, coding live and sharing your
                         thoughts with animations.
@@ -169,7 +153,7 @@
                         </div>
                     </div>
                     <div class="title mt-4 text-3xl font-bold">
-                        Introducing myself, I am kiyotaka!
+                        Introducing myself, I am kyeboard!
                     </div>
                     <div class="title mt-2 text-overlay1 font-semibold">
                         A summary of my life as a programmer!
