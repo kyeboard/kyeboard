@@ -98,7 +98,7 @@
                         thoughts with animations seems pretty fun.
                     </div>
                 </div>
-                <div class="service flex-grow w-96 p-10 rounded-lg">
+                <div class="service flex-grow p-10 rounded-lg">
                     <img src="/android.png" class="w-14" />
                     <div class="mt-4 text-2xl font-bold">Android</div>
                     <div class="text-gray-300 mt-3 font-bold">
