@@ -50,7 +50,7 @@
                             <div class="card flex items-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><i class="fa-brands fa-discord" /></div>
                                 <div class="info ml-6">
-                                    <div class="font-bold">takoyaki#2222</div>
+                                    <div class="font-bold">kyeboard#2222</div>
                                     <div class="text-overlay1 font-semibold">Discord Account</div>
                                 </div>
                             </div>
@@ -111,13 +111,6 @@
                             <div class="text-overlay1 font-semibold">Intermediate</div>
                         </div>
                     </div>
-                    <div class="card w-96 border-2 border-surface0 rounded-xl p-5 mt-6 flex items-center w-fit">
-                        <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-full">EN</div>
-                        <div class="info ml-6">
-                            <div class="text-text font-bold">Japanese</div>
-                            <div class="text-overlay1 font-semibold">Poor</div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <br><br>
@@ -128,6 +121,13 @@
 
 <script lang="ts" setup>
 const smoothScroll = (id: string) => {
-    document.querySelector(id)?.scrollIntoView({ behavior: "smooth" })
+    let rect = document.querySelector(id)?.getBoundingClientRect() as DOMRect;
+
+    setTimeout(() => {
+        window.scrollTo({
+            top: 800,
+            behavior: "smooth"
+        })
+    } , 1000)
 }
 </script>

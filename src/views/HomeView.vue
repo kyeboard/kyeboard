@@ -23,7 +23,7 @@
                 <div
                     class="description leading-7 mt-6 w-3/4 font-semibold text-overlay2 tracking-[0.016rem]"
                 >
-                    Hi, I am a self-taught, full stack developer! Though I love
+                    Hi, I am a self-taught full stack developer, though I love
                     weekend over frontend or backend. I love building websites
                     using VueJS and blazingly fast tools using Rust. As for the
                     databases, I love using MongoDB and PostgreSQL.
@@ -256,7 +256,7 @@
                 />
                 <div class="flex items-center font-semibold">
                     <i class="fa-solid fa-copyright mr-2"></i>
-                    <span>All right reserved | kiyotaka - 2022</span>
+                    <span>All right reserved | kyeboard - 2022</span>
                 </div>
             </div>
         </div>
@@ -265,5 +265,4 @@
 
 <script setup lang="ts">
 import SideBar from '@/components/SideBar.vue';
-
 </script>
