@@ -1,7 +1,7 @@
 <template>
 <div class="w-screen h-screen bg-base pt-44 px-44 text-text">
     <div class="text-3xl font-bold">Projects</div>
-    <div class="text-semibold text-overlay2 mt-1 font-semibold">All the awesome projects that I have built</div>
+    <div class="text-semibold text-overlay2 mt-2 font-semibold">All the awesome projects that I have built</div>
     <div class="mt-10">
         <div class="project border border-surface0 bg-surface0/20 w-[400px] rounded-xl" v-for="project in projects" :key="project.id">
             <a :href="project.homepage">

@@ -89,14 +89,14 @@ const close = () => {
             <a class="nav-item mx-8" href="/projects">Projects</a>
             <a class="nav-item ml-8" href="/contact">Contact</a>
         </div>
-        <div class="sm:hidden ml-auto mr-5" @click="open_dropdown()">
+        <div class="sm:hidden ml-auto mr-5 cursor-pointer" @click="open_dropdown()">
             <vue-feather type="menu" />
         </div>
         <div
-            class="dropdown h-screen flex-col h-[0px] hidden items-center gap-y-7 w-screen fixed top-0 left-0 bg-surface0"
+            class="dropdown h-screen flex-col h-[0px] hidden items-center gap-y-7 w-screen fixed top-0 left-0 bg-base"
             ref="dropdown"
         >
-            <div class="cross ml-auto mr-5 mt-7" @click="close()">
+            <div class="cross ml-auto mr-5 mt-7 cursor-pointer" @click="close()">
                 <vue-feather type="x" />
             </div>
             <a class="nav-item" href="/">Home</a>

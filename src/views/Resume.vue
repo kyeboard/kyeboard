@@ -121,13 +121,6 @@
 
 <script lang="ts" setup>
 const smoothScroll = (id: string) => {
-    let rect = document.querySelector(id)?.getBoundingClientRect() as DOMRect;
-
-    setTimeout(() => {
-        window.scrollTo({
-            top: 800,
-            behavior: "smooth"
-        })
-    } , 1000)
+    document.querySelector(id)?.scrollIntoView({ behavior: "smooth" })
 }
 </script>

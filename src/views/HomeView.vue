@@ -21,14 +21,14 @@
                     >
                 </div>
                 <div
-                    class="description leading-7 mt-6 w-3/4 font-semibold text-overlay2 tracking-[0.016rem]"
+                    class="description leading-7 mt-6 sm:w-3/4 font-semibold text-overlay2 tracking-[0.016rem]"
                 >
                     Hi, I am a self-taught full stack developer, though I love
                     weekend over frontend or backend. I love building websites
                     using VueJS and blazingly fast tools using Rust. As for the
                     databases, I love using MongoDB and PostgreSQL.
                 </div>
-                <div class="sm:flex w-3/4 mt-9">
+                <div class="sm:flex sm:w-3/4 mt-9">
                     <a
                         class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold"
                         href="/contact"
