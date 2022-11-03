@@ -73,7 +73,7 @@ const close = () => {
 
 <template>
     <div
-        class="w-full z-40 h-20 fixed top-0 left-0 border-b-2 backdrop-blur-lg bg-base/20 text-text font-semibold border-b-surface0/40 flex items-center sm:justify-center"
+        class="w-full z-40 h-20 fixed top-0 left-0 border-b-2 backdrop-blur-lg bg-base/20 text-subtext1 font-semibold border-b-surface0/40 flex items-center sm:justify-center"
     >
         <div class="left hidden sm:flex">
             <a class="nav-item mr-8" href="/">Home</a>
