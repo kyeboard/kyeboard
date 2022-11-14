@@ -13,7 +13,7 @@
                     Watashi no saito e yōkoso
                 </div>
                 <div
-                    class="sm:text-6xl text-5xl font-bold mt-3 sm:leading-[65px] leading-[55px]"
+                    class="sm:text-6xl text-5xl font-bold mt-5 sm:leading-[65px] leading-[55px]"
                 >
                     Fullstack and Android<br> enthusiastic <br> developer<span
                         class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
@@ -60,12 +60,12 @@
         </div>
         <br>
         <hr class="border-surface0">
-        <div class="w-screen bg-base pt-10 text-text sm:px-44 relative">
+        <div class="w-screen bg-base pt-16 pb-6 text-text sm:px-44 relative">
             <div class="text-4xl font-bold pl-8">Skills</div>
-            <div class="servics flex mt-2 gap-x-9 flex-wrap">
-                <div class="service flex-grow w-96 p-10 rounded-lg">
+            <div class="servics flex mt-2">
+                <div class="service flex-grow p-10 rounded-lg">
                     <img src="/designer.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Visual Design</div>
+                    <div class="mt-5 text-2xl font-bold">Visual Design</div>
                     <div class="text-gray-300 mt-3 font-bold">
                         Get a new vision to your product
                     </div>
@@ -75,20 +75,9 @@
                         Creativity doesn't wait for that perfect moment.
                     </div>
                 </div>
-                <div class="service flex-grow w-96 p-10 rounded-lg">
-                    <img src="/server.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Server</div>
-                    <div class="text-gray-300 mt-3 font-bold">
-                        Secure and blazingly fast servers
-                    </div>
-                    <div class="mt-1 text-overlay2 leading-7 font-semibold">
-                        I build secure, reliable blazingly fast open source web
-                        servers with Rust that can powerup serveral tools including your sucky frontend website. 
-                    </div>
-                </div>
-                <div class="service flex-grow w-96 p-10 rounded-lg">
+                <div class="service flex-grow p-10 rounded-lg">
                     <img src="/content.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Content Creator</div>
+                    <div class="mt-5 text-2xl font-bold">Content Creator</div>
                     <div class="text-gray-300 mt-3 font-bold">
                         With a great power comes a great responsibility
                     </div>
@@ -100,9 +89,9 @@
                 </div>
                 <div class="service flex-grow p-10 rounded-lg">
                     <img src="/android.png" class="w-14" />
-                    <div class="mt-4 text-2xl font-bold">Android</div>
+                    <div class="mt-5 text-2xl font-bold">Android</div>
                     <div class="text-gray-300 mt-3 font-bold">
-                        Android is Android
+                        Android is better than iOS
                     </div>
                     <div class="mt-1 text-overlay2 leading-7 font-semibold">
                         Used to develop cross platform apps using Flutter but
@@ -246,9 +235,9 @@
                 </button>
             </div>
         </div>
-        <div class="w-screen bg-base h-44 pt-14">
+        <div class="w-screen bg-base pt-14">
             <div
-                class="w-[3000px] flex flex-col text-overlay1 items-center pt-6 bg-surface0/40 relative left-1/2 -translate-x-1/2 h-[3000px] rounded-full"
+                class="flex flex-col text-overlay1 items-center"
             >
                 <img
                     src="https://avatars.githubusercontent.com/u/115910279?v=4"
@@ -259,6 +248,7 @@
                     <span>All right reserved | kyeboard - 2022</span>
                 </div>
             </div>
+            <div class="mt-4 bg-gradient-to-r from-sky to-blue"></div>
         </div>
     </div>
 </template>

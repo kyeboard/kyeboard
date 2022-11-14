@@ -30,7 +30,7 @@
                 <div class="text-2xl font-bold">All Personal Informations</div>
                 <div class="personal_info mt-8">
                     <div class="flex flex-wrap gap-y-8">
-                        <div class="left">
+                        <div class="mx-aitop">
                             <div class="card flex items-center justify-center w-fit">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="mail" size="18" /></div>
                                 <div class="info ml-6">
@@ -46,22 +46,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="sm:ml-auto sm:mr-60">
+                        <div class="sm:mx-auto">
                             <div class="card flex items-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><i class="fa-brands fa-discord" /></div>
                                 <div class="info ml-6">
-                                    <div class="font-bold">kyeboard#2222</div>
+                                    <div class="font-bold">kyeboard#4352</div>
                                     <div class="text-overlay1 font-semibold">Discord Account</div>
                                 </div>
                             </div>
                             <div class="card mt-6 flex items-center justify-center">
                                 <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="twitter" size="18" /></div>
                                 <div class="info ml-6">
-                                    <div class="font-bold">kyeboard</div>
+                                    <div class="font-bold">kyeboard_</div>
                                     <div class="text-overlay1 font-semibold truncate">Twitter Account</div>
                                 </div>
                             </div>
                         </div>
+                        <div class="sm:mx-auto">
+                            <div class="card flex items-center">
+                                <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><i class="fa-brands fa-discord" /></div>
+                                <div class="info ml-6">
+                                    <div class="font-bold">kyeboard#4352</div>
+                                    <div class="text-overlay1 font-semibold">Discord Account</div>
+                                </div>
+                            </div>
+                            <div class="card mt-6 flex items-center justify-center">
+                                <div class="icon bg-surface0/40 flex items-center justify-center p-4 rounded-lg"><vue-feather type="twitter" size="18" /></div>
+                                <div class="info ml-6">
+                                    <div class="font-bold">kyeboard_</div>
+                                    <div class="text-overlay1 font-semibold truncate">Twitter Account</div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <br><hr class="border-surface0"><br>
                     <div class="card flex items-center justify-center w-fit">
