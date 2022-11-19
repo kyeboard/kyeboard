@@ -7,4 +7,4 @@ I am kyeboard, an average weekend lover, a frontend developer and a Rustacean! I
 - Twitter  - [https://www.twitter.com/kyeboard_](https://www.twitter.com/kyeboard_)
 - Leetcode - https://leetcode.com/kyeboard/
 - Email    - [me@kyeboard.me](mailto:me@kyeboard.me)
-- Sponser  - https://www.github.com/sponsers/kyeboard 
+- Sponser  - https://www.github.com/sponsors/kyeboard 
