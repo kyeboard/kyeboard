@@ -65,12 +65,18 @@ module.exports = {
                 sd: "1050px",
                 md: "1350px",
             },
+            colors: {
+                "base": "#1D192B",
+                "surface0": "#332D41",
+                "text": "#FFFBFE",
+                "surface1": "#4A4458"
+            }
         },
     },
     plugins: [
-        require("@catppuccin/tailwindcss")({
-            prefix: "",
-            defaultFlavour: "mocha",
-        }),
+        // require("@catppuccin/tailwindcss")({
+        //     prefix: "",
+        //     defaultFlavour: "mocha",
+        // }),
     ],
 };
