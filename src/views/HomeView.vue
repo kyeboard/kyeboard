@@ -26,15 +26,15 @@
             </div>
             <div class="bench mt-auto text-2xl font-bold w-[25rem] flex gap-x-28 justify-center">
                 <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-200 opacity-0">
-                    <div class="number text-4xl">9</div>
+                    <div class="number text-4xl">{{followers}}</div>
                     <div class="title text-xl">Followers</div>
                 </div>
                 <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-220 opacity-0">
-                    <div class="number text-4xl">9</div>
+                    <div class="number text-4xl">{{stars}}</div>
                     <div class="title text-xl">Stars</div>
                 </div>
                 <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-240 opacity-0">
-                    <div class="number text-4xl">1</div>
+                    <div class="number text-4xl">{{projects}}</div>
                     <div class="title text-xl">Project</div>
                 </div>
             </div>
@@ -77,3 +77,29 @@
 <div class="dot w-2 absolute right-[15rem] top-[20rem] h-2 bg-teal rounded-full absolute animate-grow"></div>
 <div class="dot w-3 absolute right-[15rem] bottom-[10rem] h-3 bg-teal rounded-full absolute animate-grow"></div>
 </template>
+
+<script lang="ts" setup>
+import { ref } from 'vue';
+
+const followers = ref<number>(0);
+const stars = ref<number>(0);
+const projects = ref<number>(0);
+
+(async () => {
+    // Get the followers
+    followers.value = (await (await fetch("https://api.github.com/users/kyeboard")).json()).followers
+
+    // Get the total number of stars
+    let _stars = 0
+    const repos = (await (await fetch("https://api.github.com/users/kyeboard/repos")).json());
+    projects.value = repos.length;
+
+    for(const repo of repos) {
+        _stars += repo.stargazers_count
+    }
+
+    stars.value = _stars
+
+})()
+
+</script>
