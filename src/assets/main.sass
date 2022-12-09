@@ -9,7 +9,6 @@
 
 html, body 
     font-family: 'Nunito', sans-serif
-    background-color: #1E1E2E
 
 *:focus
     outline: none
@@ -38,6 +37,12 @@ html, body
         @apply gap-x-3
         @apply cursor-pointer
         @apply font-semibold
+
+.gradient-circle
+    background: rgb(218,210,240)
+    height: 550px
+    width: 550px
+    background: radial-gradient(circle, rgba(158,119,246,0.2) 0%, rgba(158,119,246,0.15) 42%, rgba(231,231,242,1) 70%)
 
 *::-webkit-scrollbar
     @apply hidden

@@ -17,6 +17,7 @@
     "feather-icons": "4",
     "meilisearch": "^0.28.0",
     "smooth-scrollbar": "^8.8.1",
+    "tailwindcss-animation-delay": "^1.0.7",
     "vue": "3",
     "vue-feather": "2",
     "vue-router": "^4.1.2"

@@ -1,258 +1,79 @@
 <template>
-    <div class="overflow-y-hidden no-scrollbar smooth-scroll overflow-x-scroll">
-        <SideBar />
-        <div
-            class="w-screen sm:h-screen pt-32 sd:pt-0 bg-base flex flex-col-reverse sm:flex-row items-center sm:justify-center text-text sm:pl-44 sm:pr-10 md:pr-24"
-        >
-            <div
-                class="left sm:mr-auto sm:w-[60%] relative p-5 pt-10 sm:pt-0 sm:p-0 w-full"
-            >
-                <div
-                    class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
-                >
-                    Watashi no saito e yōkoso
-                </div>
-                <div
-                    class="sm:text-6xl text-5xl font-bold mt-5 sm:leading-[65px] leading-[55px]"
-                >
-                    Fullstack and Android<br> enthusiastic <br> developer<span
-                        class="bg-gradient-to-r from-[#eecda3] to-[#ef629f] w-fit text-transparent bg-clip-text font-bold"
-                        >.</span
-                    >
-                </div>
-                <div
-                    class="description leading-7 mt-6 sm:w-3/4 font-semibold text-overlay2 tracking-[0.016rem]"
-                >
-                    Hi, I am a self-taught full stack developer, though I love
-                    weekend over frontend or backend. I love building websites
-                    using VueJS and blazingly fast tools using Rust. As for the
-                    databases, I love using MongoDB and PostgreSQL.
-                </div>
-                <div class="sm:flex sm:w-3/4 mt-9">
-                    <a
-                        class="bg-gradient-to-r w-full flex items-center justify-center from-[#eecda3] to-[#ef629f] sm:p-4 p-5 sm:w-1/2 rounded-xl text-base font-bold"
-                        href="/contact"
-                    >
-                        Let's talk
-                        <vue-feather type="send" size="20" class="ml-2" />
-                    </a>
-                    <a
-                        class="bg-surface0/40 sm:ml-4 mt-4 sm:mt-0 flex items-center justify-center sm:p-4 p-5 sm:w-1/2 w-full rounded-xl text-text font-bold"
-                        href="/resume"
-                    >
-                        Download CV
-                        <vue-feather
-                            type="download-cloud"
-                            size="20"
-                            class="ml-4"
-                        />
-                    </a>
-                </div>
+<div class="flex w-screen h-screen bg-white absolute">
+    <div class="gradient-circle absolute bg-red top-10 -left-64"></div>
+    <div class="wrapper absolute w-full h-full flex">
+        <div class="flex flex-col justify-center px-24 w-1/2">
+            <a href="/blog/me" class="overview z-2 text-gray-600 font-bold text-md flex items-center animate-rise opacity-0">
+                Get a quick overview of me <vue-feather type="arrow-right" size="20" class="ml-2" />
+            </a>
+            <div class="title text-6xl font-bold mt-5 leading-[70px] text-gray-900">
+                <div class="animate-rise opacity-0">Fullstack and Android</div>
+                <div class="animate-rise opacity-0 animation-delay-75">Enthusiastic</div>
+                <div class="animate-rise opacity-0 animation-delay-150">Developer.</div>
             </div>
-            <div
-                class="right relative w-2/3 sm:w-fit flex items-center justify-center"
-            >
-                <img
-                    src="https://avatars.githubusercontent.com/u/115910279?v=4"
-                    class="rounded-full w-3/4 sd:w-auto"
-                />
+            <div class="description mt-5 w-[450px] text-gray-600 font-semibold font-semibold animate-rise opacity-0 animation-delay-75">
+                Hi, I am kyeboard, an average weekend lover, a frontend developer and a Rustacean. I love making blazingly fast tools for the homies.
+            </div>
+            <div class="mt-8 w-fit flex gap-x-6 text-sm font-bold animate-rise opacity-0">
+                <button class="flex items-center bg-gray-900 px-14 py-4 text-white rounded-xl">Download CV <vue-feather type="download-cloud" size="20" class="ml-4" /> </button>
+                <button class="flex items-center ml-4 px-6"><vue-feather type="send" size="20" class="mr-3" /> Contact Me</button>
             </div>
         </div>
-        <br>
-        <hr class="border-surface0">
-        <div class="w-screen bg-base pt-16 pb-6 text-text sm:px-44 relative">
-            <div class="text-4xl font-bold pl-8">Skills</div>
-            <div class="servics flex mt-2">
-                <div class="service flex-grow p-10 rounded-lg">
-                    <img src="/designer.png" class="w-14" />
-                    <div class="mt-5 text-2xl font-bold">Visual Design</div>
-                    <div class="text-gray-300 mt-3 font-bold">
-                        Get a new vision to your product
-                    </div>
-                    <div class="mt-1 text-overlay2 leading-7 font-semibold">
-                        I have recently started designing web pages. Not really
-                        good to it, but I am trying my best to master it.
-                        Creativity doesn't wait for that perfect moment.
-                    </div>
+        <div class="right w-1/2 pb-20 relative h-full flex flex-col items-center justify-center">
+            <div class="image flex w-fit mt-10 absolute animate-rise animation-delay-75 opacity-0">
+                <img src="/profile.png" class="w-[25rem] h-[25rem] rounded-3xl z-10 absolute" />
+                <div class="mark w-[25rem] h-[25rem] bg-gray-400/20 rounded-2xl -translate-y-10 translate-x-10"></div>
+            </div>
+            <div class="bench mt-auto text-2xl font-bold w-[25rem] flex gap-x-28 justify-center">
+                <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-200 opacity-0">
+                    <div class="number text-4xl">9</div>
+                    <div class="title text-xl">Followers</div>
                 </div>
-                <div class="service flex-grow p-10 rounded-lg">
-                    <img src="/content.png" class="w-14" />
-                    <div class="mt-5 text-2xl font-bold">Content Creator</div>
-                    <div class="text-gray-300 mt-3 font-bold">
-                        With a great power comes a great responsibility
-                    </div>
-                    <div class="mt-1 text-overlay2 leading-7 font-semibold">
-                        Inspired by many content creator, I wanna become one
-                        myself! Coding live, interacting with bunch of people and sharing your
-                        thoughts with animations seems pretty fun.
-                    </div>
+                <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-220 opacity-0">
+                    <div class="number text-4xl">9</div>
+                    <div class="title text-xl">Stars</div>
                 </div>
-                <div class="service flex-grow p-10 rounded-lg">
-                    <img src="/android.png" class="w-14" />
-                    <div class="mt-5 text-2xl font-bold">Android</div>
-                    <div class="text-gray-300 mt-3 font-bold">
-                        Android is better than iOS
-                    </div>
-                    <div class="mt-1 text-overlay2 leading-7 font-semibold">
-                        Used to develop cross platform apps using Flutter but
-                        switched to native Kotlin. Waiting for tauri-rs to
-                        be out for Android, so that I can building blazingly fast Android apps as well.
-                    </div>
+                <div class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-240 opacity-0">
+                    <div class="number text-4xl">1</div>
+                    <div class="title text-xl">Project</div>
                 </div>
             </div>
         </div>
-        <br>
-        <hr class="pt-10 border-surface0">
-        <div
-            class="w-screen min-h-[720px] md:min-h-[560px] pt-10 sm:h-fit bg-base text-text sm:px-44 px-8 relative"
-        >
-            <div class="text-4xl font-bold">Blogs</div>
-            <div class="blog mt-6 sm:flex h-[380px]">
-                <img
-                    src="/blog.png"
-                    class="sm:w-1/2 border-2 border-surface0/40 rounded-lg"
-                />
-                <div class="info sm:ml-10 pt-5 h-full flex flex-col relative">
-                    <div class="tags w-fit">
-                        <div
-                            class="tag bg-gradient-to-r from-[#eecda3] to-[#ef629f] text-base p-1 rounded-3xl px-4"
-                        >
-                            Introduction
-                        </div>
-                    </div>
-                    <div class="title mt-4 text-3xl font-bold">
-                        Introducing myself, I am kyeboard!
-                    </div>
-                    <div class="title mt-2 text-overlay1 font-semibold">
-                        A summary of my life as a programmer!
-                    </div>
-                    <div
-                        class="title mt-6 text-overlay2 font-semibold leading-8 overflow-fade overflow-scroll"
-                    >
-                        <!-- Hi, I am tokayakii_, a full stack and an Android -->
-                        <!-- developer. I was introduced programming back when I was -->
-                        <!-- 9 years old, in class 4. I started by learning Java, -->
-                        <!-- which my brother used to teach me during the weekends. -->
-                        <!-- Soon, I started to master it by solving bunch of tricky -->
-                        <!-- problems and patterns. Once solving enough questions, my -->
-                        <!-- brother gave me the idea of solve questions on -->
-                        <!-- HackerRank. It had a bunch of complex problems, but I -->
-                        <!-- somehow was able to do it. Soon, I tried out other -->
-                        <!-- languages, and the next language I learnt was Python. -->
-                        <!-- Later, I was introduced to web technologies (HTML, CSS, -->
-                        <!-- and JavaScript). Our school used to teach us HTML, -->
-                        <!-- adding simple input boxes, forms, divs and stuff like -->
-                        <!-- that. I still remember how fuck*ng happy I was when I -->
-                        <!-- first added a route to my application using form -->
-                        <!-- actions. Well IDK, but the truth is the page changing -->
-                        <!-- transition (from one url to another) was one of the main -->
-                        <!-- reason of myself becoming a frontend developer -->
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Laborum blanditiis voluptates saepe pariatur velit
-                        dolor rem quos fugit aspernatur animi qui, assumenda
-                        soluta voluptatum ullam sunt sapiente eaque et enim?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing
-                        elit. Itaque facilis voluptatum at sequi nisi labore
-                        aperiam eveniet nemo nihil animi nostrum, totam dolorum
-                        dolore adipisci quibusdam earum hic voluptas
-                        consectetur! Lorem ipsum dolor sit amet, consectetur
-                        adipisicing elit. Accusantium magnam consequuntur fugiat
-                        iste libero non debitis eaque dicta eos perferendis in
-                        voluptate mollitia corporis, labore facere voluptatem?
-                        Reprehenderit, explicabo ducimus!
-                    </div>
-                    <div class="flex mt-4">
-                        <a
-                            href="/blog/me"
-                            class="text-blue font-semibold flex items-center justify-center text-xs text:text-base"
-                            >Read more
-                            <vue-feather
-                                type="arrow-right"
-                                size="20"
-                                class="ml-2"
-                        /></a>
-                        <div
-                            class="sumup ml-auto flex bg-surface0/40 p-4 sm:p-3 rounded-xl px-5 sm:px-6 text-xs text-overlay3"
-                        >
-                            <div
-                                class="time flex items-center justify-center"
-                            >
-                                <vue-feather
-                                    type="clock"
-                                    size="16"
-                                    class="mr-2"
-                                />10 min
-                            </div>
-                            <div
-                                class="time ml-6 flex items-center justify-center"
-                            >
-                                <vue-feather
-                                    type="eye"
-                                    size="16"
-                                    class="mr-2"
-                                />1408
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr class="pt-10 border-surface0">
-        <br>
-        <div
-            class="w-screen pb-12 pt-20 sm:pt-0 bg-base text-text flex items-center justify-center flex-col sm:px-44 relative"
-        >
-            <div class="text-4xl font-bold text-center">Get in Touch</div>
-            <div
-                class="sm:w-1/2 px-4 text-overlay1 font-semibold text-center mt-4"
-            >
-                Wanna talk about a project? Contact me below! I will try to
-                respond as soon as possible
-            </div>
-            <div
-                class="w-1/2 mt-4 bg-surface0/40 p-2 rounded-3xl flex items-center justify-center hidden sm:flex"
-            >
-                <input
-                    class="h-full w-full bg-transparent px-4 placeholder-overlay1 focus:outline-none"
-                    placeholder="Enter your email address..."
-                    type="email"
-                />
-                <button
-                    class="bg-blue px-6 text-black rounded-3xl py-2 font-semibold"
-                >
-                    Sumbit
-                </button>
-            </div>
-            <div class="w-full mt-4 flex flex-col sm:hidden">
-                <input
-                    class="h-full bg-surface0/40 p-5 sm:p-0 rounded-3xl mx-4 px-8 placeholder-overlay1 focus:outline-none"
-                    placeholder="Enter your email address..."
-                />
-                <button
-                    class="bg-blue px-6 text-black rounded-3xl p-4 mt-4 mx-4 font-semibold"
-                >
-                    Sumbit
-                </button>
-            </div>
-        </div>
-        <div class="w-screen bg-base pt-14">
-            <div
-                class="flex flex-col text-overlay1 items-center"
-            >
-                <img
-                    src="https://avatars.githubusercontent.com/u/115910279?v=4"
-                    class="h-12 w-12 rounded-full mb-3"
-                />
-                <div class="flex items-center font-semibold">
-                    <i class="fa-solid fa-copyright mr-2"></i>
-                    <span>All right reserved | kyeboard - 2022</span>
-                </div>
-            </div>
-            <div class="mt-4 bg-gradient-to-r from-sky to-blue"></div>
-        </div>
-    </div>
-</template>
 
-<script setup lang="ts">
-import SideBar from '@/components/SideBar.vue';
-</script>
+    </div>
+</div>
+<div class="mt-14 text-gray-700 flex gap-x-5 absolute bottom-6 left-24">
+    <a href="https://www.twitch.tv/kyeboard_"  class="animate-rise opacity-0 animation-delay-200">
+        <vue-feather type="twitch" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.github.com/kyeboard" class="animate-rise opacity-0 animation-delay-210">
+        <vue-feather type="github" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.gitlab.com/kyeboard" class="animate-rise opacity-0 animation-delay-220">
+        <vue-feather type="gitlab" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.twitter.com/kyeboard_" class="animate-rise opacity-0 animation-delay-230">
+        <vue-feather type="twitter" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.instagram.com/thekyeboard" class="animate-rise opacity-0 animation-delay-240">
+        <vue-feather type="instagram" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.youtube.com/@kyeboard" class="animate-rise opacity-0 animation-delay-250">
+        <vue-feather type="youtube" class="mr-4" size="20" />
+    </a>
+    <a href="mailto:me@kyeboard.me" class="animate-rise opacity-0 animation-delay-260">
+        <vue-feather type="mail" class="mr-4" size="20" />
+    </a>
+    <a href="https://www.github.com/sponsors/kyeboard" class="animate-rise opacity-0 animation-delay-260">
+        <vue-feather type="heart" class="mr-4" size="20" />
+    </a>
+</div>
+<img src="/arrow.png" alt="Arrow" class="arrow absolute top-1/2 w-28 left-1/3 rotate-[60deg] animate-rise opacity-0">
+<div class="dot w-4 absolute top-44 left-[40rem] h-4 bg-peach rounded-full absolute animate-grow"></div>
+<div class="dot w-4 absolute top-52 left-[60rem] h-4 bg-green rounded-full absolute animate-grow"></div>
+<div class="dot w-5 absolute top-[30rem] left-[55rem] h-5 bg-blue rounded-full absolute animate-grow"></div>
+<div class="dot w-2 absolute top-[35rem] left-[60rem] h-2 bg-red rounded-full absolute animate-grow"></div>
+<div class="dot w-5 absolute right-[10rem] top-[10rem] h-5 bg-sky rounded-full absolute animate-grow"></div>
+<div class="dot w-2 absolute right-[15rem] top-[20rem] h-2 bg-teal rounded-full absolute animate-grow"></div>
+<div class="dot w-3 absolute right-[15rem] bottom-[10rem] h-3 bg-teal rounded-full absolute animate-grow"></div>
+</template>

@@ -3,14 +3,35 @@ module.exports = {
     content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
     theme: {
         extend: {
+            animationDelay: {
+                200: "200ms",
+                210: "220ms",
+                220: "240ms",
+                230: "260ms",
+                240: "280ms",
+                250: "300ms",
+                260: "320ms",
+                280: "340ms",
+            },
             animation: {
                 floating: "floating 1s ease-in-out infinite",
-                grow: "grow 0.5s ease-in-out forwards",
+                rise: "rise 0.5s ease-in-out forwards",
                 shrink: "shrink 0.5s ease-in-out forwards",
+                grow: "grow 0.8s ease-in-out forwards",
                 fade_in: "fade_in 0.5s ease-in-out forwards",
                 fade_out: "fade_out 0.5s ease-in-out forwards",
             },
             keyframes: {
+                rise: {
+                    "0%": {
+                        transform: "translateY(55px)",
+                        opacity: 0,
+                    },
+                    "100%": {
+                        transform: "translate(0px)",
+                        opacity: 1,
+                    },
+                },
                 floating: {
                     "0%, 100%": {
                         transform: "translateY(0px)",
@@ -31,11 +52,11 @@ module.exports = {
                 },
                 grow: {
                     "0%": {
-                        height: "0px",
-                        opacity: 0.9,
+                        transform: "scale(0)",
+                        opacity: 0,
                     },
                     "100%": {
-                        height: "100vh",
+                        transform: "scale(1)",
                         opacity: 1,
                     },
                 },
@@ -59,6 +80,7 @@ module.exports = {
                         transform: "translateY(-10px)",
                     },
                 },
+
             },
             screens: {
                 sm: "730px",
@@ -66,17 +88,19 @@ module.exports = {
                 md: "1350px",
             },
             colors: {
-                "base": "#1D192B",
-                "surface0": "#332D41",
-                "text": "#FFFBFE",
-                "surface1": "#4A4458"
+                "white": "#e7e7f2",
+                "purple": "#dad2f0"
+            },
+            backgroundImage: {
+                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
             }
         },
     },
     plugins: [
-        // require("@catppuccin/tailwindcss")({
-        //     prefix: "",
-        //     defaultFlavour: "mocha",
-        // }),
+        require("@catppuccin/tailwindcss")({
+            prefix: "",
+            defaultFlavour: "mocha",
+        }),
+        require("tailwindcss-animation-delay")
     ],
 };
