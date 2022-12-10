@@ -12,7 +12,7 @@
                 <div class="animate-rise opacity-0 animation-delay-150">Developer.</div>
             </div>
             <div class="description mt-5 w-[450px] text-gray-600 font-semibold font-semibold animate-rise opacity-0 animation-delay-75">
-                Hi, I am kyeboard, an average weekend lover, a frontend developer and a Rustacean. I love making blazingly fast tools for the homies.
+                Hi, I am kyeboard, an average weekend lover, a frontend developer and a Rustacean! I love making blazingly fast tools for the homies.
             </div>
             <div class="mt-8 w-fit flex gap-x-6 text-sm font-bold animate-rise opacity-0">
                 <button class="flex items-center bg-gray-900 px-14 py-4 text-white rounded-xl">Download CV <vue-feather type="download-cloud" size="20" class="ml-4" /> </button>

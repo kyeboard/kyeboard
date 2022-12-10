@@ -1,12 +1,12 @@
 <template>
     <div
-        class="w-screen h-screen bg-base pt-40 text-text flex flex-col items-center text-center"
+        class="w-screen h-screen bg-white pt-40 text-gray-800 flex flex-col items-center text-center"
     >
         <div class="font-extrabold text-4xl">Contact Me</div>
-        <div class="mt-4 text-overlay2">
+        <div class="mt-4">
             Any questions or remarks? Just write me a message!
         </div>
-        <div class="h-2/3 w-2/3 mt-7 rounded-2xl bg-surface0/20 p-4 flex">
+        <div class="h-2/3 w-2/3 mt-7 rounded-2xl bg-gray-300/60 p-4 flex">
             <div
                 class="w-1/3 relative bg-surface0/30 rounded-2xl overflow-hidden text-left p-10 flex flex-col"
             >
