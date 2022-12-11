@@ -1,5 +1,5 @@
 <template>
-<div class="w-screen h-screen bg-base"></div>
+<div class="w-screen h-screen bg-white"></div>
 </template>
 
 <script setup lang="ts">

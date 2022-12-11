@@ -5,6 +5,7 @@ specifiers:
   '@rushstack/eslint-patch': ^1.1.0
   '@types/jsdom': ^16.2.14
   '@types/node': ^16.11.45
+  '@types/uuid': ^9.0.0
   '@vitejs/plugin-vue': ^3.0.1
   '@vue/eslint-config-prettier': ^7.0.0
   '@vue/eslint-config-typescript': ^11.0.0
@@ -22,6 +23,7 @@ specifiers:
   feather-icons: '4'
   jsdom: ^20.0.0
   meilisearch: ^0.28.0
+  notyf: ^3.10.0
   npm-run-all: ^4.1.5
   postcss: ^8.4.18
   prettier: ^2.5.1
@@ -31,6 +33,7 @@ specifiers:
   tailwindcss: ^3.1.8
   tailwindcss-animation-delay: ^1.0.7
   typescript: ~4.7.4
+  uuid: ^9.0.0
   vite: ^3.0.1
   vitest: ^0.18.1
   vue: '3'
@@ -39,11 +42,14 @@ specifiers:
   vue-tsc: ^0.38.8
 
 dependencies:
+  '@types/uuid': 9.0.0
   circletype: 2.3.0
   feather-icons: 4.29.0
   meilisearch: 0.28.0
+  notyf: 3.10.0
   smooth-scrollbar: 8.8.1
   tailwindcss-animation-delay: 1.0.7_tailwindcss@3.1.8
+  uuid: 9.0.0
   vue: 3.2.41
   vue-feather: 2.0.0_rc4brm7xcb5v24sddtzxnqmk5u
   vue-router: 4.1.5_vue@3.2.41
@@ -323,6 +329,10 @@ packages:
   /@types/tough-cookie/4.0.2:
     resolution: {integrity: sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw==}
     dev: true
+
+  /@types/uuid/9.0.0:
+    resolution: {integrity: sha512-kr90f+ERiQtKWMz5rP32ltJ/BtULDI5RVO0uavn1HQUOwjx0R1h0rnDYNL0CepF1zL5bSY6FISAfd9tOdDhU5Q==}
+    dev: false
 
   /@types/yauzl/2.10.0:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
@@ -2885,6 +2895,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /notyf/3.10.0:
+    resolution: {integrity: sha512-Mtnp+0qiZxgrH+TzVlzhWyZceHdAZ/UWK0/ju9U0HQeDpap1mZ8cC7H5wSI5mwgni6yeAjaxsTw0sbMK+aSuHw==}
+    dev: false
+
   /npm-run-all/4.1.5:
     resolution: {integrity: sha512-Oo82gJDAVcaMdi3nuoKFavkIHBRVqQ1qvMb+9LHk/cF4P6B2m8aP04hGf7oL6wZ9BuGwX1onlLhpuoofSyoQDQ==}
     engines: {node: '>= 4'}
@@ -3847,6 +3861,11 @@ packages:
     resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
     hasBin: true
     dev: true
+
+  /uuid/9.0.0:
+    resolution: {integrity: sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==}
+    hasBin: true
+    dev: false
 
   /validate-npm-package-license/3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}

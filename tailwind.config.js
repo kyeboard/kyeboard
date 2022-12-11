@@ -12,6 +12,8 @@ module.exports = {
                 250: "300ms",
                 260: "320ms",
                 280: "340ms",
+                300: "360ms",
+                320: "380ms",
             },
             animation: {
                 floating: "floating 1s ease-in-out infinite",
