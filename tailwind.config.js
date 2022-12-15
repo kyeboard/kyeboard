@@ -82,7 +82,6 @@ module.exports = {
                         transform: "translateY(-10px)",
                     },
                 },
-
             },
             screens: {
                 sm: "730px",
@@ -90,12 +89,12 @@ module.exports = {
                 md: "1350px",
             },
             colors: {
-                "white": "#e7e7f2",
-                "purple": "#dad2f0"
+                white: "#e7e7f2",
+                purple: "#dad2f0",
             },
             backgroundImage: {
-                'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-            }
+                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+            },
         },
     },
     plugins: [
@@ -103,6 +102,6 @@ module.exports = {
             prefix: "",
             defaultFlavour: "mocha",
         }),
-        require("tailwindcss-animation-delay")
+        require("tailwindcss-animation-delay"),
     ],
 };
