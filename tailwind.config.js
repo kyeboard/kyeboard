@@ -46,7 +46,7 @@ module.exports = {
                 },
                 increase: {
                     "0%": {
-                        height: "0px",
+                        height: "0vh",
                         opacity: 0
                     },
                     "100%": {
@@ -60,7 +60,7 @@ module.exports = {
                         opacity: 1
                     },
                     "100%": {
-                        height: "0px",
+                        height: "0vh",
                         opacity: 0
                     },
                 },
