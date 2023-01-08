@@ -18,6 +18,8 @@ module.exports = {
             animation: {
                 floating: "floating 1s ease-in-out infinite",
                 rise: "rise 0.5s ease-in-out forwards",
+                increase: "increase 0.5s ease-in-out forwards",
+                decrease: "decrease 0.5s ease-in-out forwards",
                 shrink: "shrink 0.5s ease-in-out forwards",
                 grow: "grow 0.8s ease-in-out forwards",
                 fade_in: "fade_in 0.5s ease-in-out forwards",
@@ -40,6 +42,26 @@ module.exports = {
                     },
                     "50%": {
                         transform: "translateY(10px)",
+                    },
+                },
+                increase: {
+                    "0%": {
+                        height: "0px",
+                        opacity: 0
+                    },
+                    "100%": {
+                        height: "100vh",
+                        opacity: 1
+                    },
+                },
+                decrease: {
+                    "0%": {
+                        height: "100vh",
+                        opacity: 1
+                    },
+                    "100%": {
+                        height: "0px",
+                        opacity: 0
                     },
                 },
                 shrink: {
