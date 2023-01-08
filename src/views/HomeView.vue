@@ -1,17 +1,21 @@
 <template>
     <div class="flex w-screen h-screen bg-white absolute">
-        <div class="gradient-circle absolute bg-red top-10 -left-64"></div>
+        <div class="gradient-circle absolute bg-red top-10 sm:-left-64 -left-3/4"></div>
         <div class="wrapper absolute w-full h-full flex">
-            <div class="flex flex-col justify-center px-24 w-1/2">
+            <div class="flex flex-col justify-center sm:px-24 sm:w-1/2 px-6">
                 <a
                     href="/blog/me"
-                    class="overview z-2 text-gray-600 font-bold text-md flex items-center animate-rise opacity-0"
+                    class="overview z-2 text-gray-600 font-bold text-sm sm:text-base flex items-end sm:items-center animate-rise opacity-0"
                 >
+                    <div class="profile-small mr-3 sm:hidden">
+                        <img src="/profile.png" class="rounded-full w-6 h-6" />
+                    </div>
+
                     Get a quick overview of me
                     <vue-feather type="arrow-right" size="20" class="ml-2" />
                 </a>
                 <div
-                    class="title text-6xl font-bold mt-5 leading-[70px] text-gray-900"
+                    class="title sm:text-6xl text-5xl font-bold mt-5 sm:leading-[70px] leading-[55px] text-gray-900"
                 >
                     <div class="animate-rise opacity-0">
                         Fullstack and Android
@@ -24,17 +28,17 @@
                     </div>
                 </div>
                 <div
-                    class="description mt-5 w-[450px] text-gray-600 font-semibold font-semibold animate-rise opacity-0 animation-delay-75"
+                    class="description mt-5 sm:w-[450px] sm:text-base text-sm sm:tracking-normal tracking-wide text-gray-600 font-semibold animate-rise opacity-0 animation-delay-75"
                 >
                     Hi, I am kyeboard, an average weekend lover, a frontend
                     developer and a Rustacean! I love making blazingly fast
                     tools for the homies.
                 </div>
                 <div
-                    class="mt-8 w-fit flex gap-x-6 text-sm font-bold animate-rise opacity-0"
+                    class="mt-8 sm:w-2/3 sm:flex gap-x-6 text-sm sm:justify-center font-bold animate-rise opacity-0"
                 >
                     <button
-                        class="flex items-center bg-gray-900 px-14 py-4 text-white rounded-xl"
+                        class="flex sm:items-center sm:px-14 justify-center py-4 bg-gray-800 w-full text-white rounded-xl"
                     >
                         Download CV
                         <vue-feather
@@ -43,28 +47,28 @@
                             class="ml-4"
                         />
                     </button>
-                    <button class="flex items-center ml-4 px-6">
+                    <button class="flex justify-center py-4 w-full rounded-xl mt-4 sm:mt-0">
                         <vue-feather type="send" size="20" class="mr-3" />
                         Contact Me
                     </button>
                 </div>
             </div>
             <div
-                class="right w-1/2 pb-20 relative h-full flex flex-col items-center justify-center"
+                class="right w-1/2 sm:pb-20 relative h-full hidden sm:flex flex-col items-center justify-center"
             >
                 <div
-                    class="image flex w-fit mt-10 absolute animate-rise animation-delay-75 opacity-0"
+                    class="image flex mt-10 absolute animate-rise animation-delay-75 opacity-0"
                 >
                     <img
                         src="/profile.png"
-                        class="w-[25rem] h-[25rem] rounded-3xl z-10 absolute"
+                        class="sm:w-[25rem] sm:h-[25rem] w-[20px] h-[20px] rounded-3xl z-10 absolute"
                     />
                     <div
-                        class="mark w-[25rem] h-[25rem] bg-gray-400/20 rounded-2xl -translate-y-10 translate-x-10"
+                        class="mark sm:w-[25rem] sm:h-[25rem] bg-gray-400/20 rounded-2xl -translate-y-10 translate-x-10"
                     ></div>
                 </div>
                 <div
-                    class="bench mt-auto text-2xl font-bold w-[25rem] flex gap-x-28 justify-center"
+                    class="bench mt-auto text-2xl font-bold w-[25rem] sm:flex hidden gap-x-28 justify-center"
                 >
                     <div
                         class="github flex gap-y-2 flex-col items-center justify-center animate-rise animation-delay-200 opacity-0"
@@ -88,82 +92,84 @@
             </div>
         </div>
     </div>
-    <div class="mt-14 text-gray-700 flex gap-x-5 absolute bottom-6 left-24">
+    <div class="mt-14 text-gray-700 flex gap-x-5 absolute bottom-6 sm:left-24 flex-wrap gap-y-4 sm:flex-nowrap px-10">
         <a
             href="https://www.twitch.tv/kyeboard_"
-            class="animate-rise opacity-0 animation-delay-200"
+            class="animate-rise opacity-0 animation-delay-200 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="twitch" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.github.com/kyeboard"
-            class="animate-rise opacity-0 animation-delay-210"
+            class="animate-rise opacity-0 animation-delay-210 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="github" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.gitlab.com/kyeboard"
-            class="animate-rise opacity-0 animation-delay-220"
+            class="animate-rise opacity-0 animation-delay-220 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="gitlab" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.twitter.com/kyeboard_"
-            class="animate-rise opacity-0 animation-delay-230"
+            class="animate-rise opacity-0 animation-delay-230 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="twitter" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.instagram.com/thekyeboard"
-            class="animate-rise opacity-0 animation-delay-240"
+            class="animate-rise opacity-0 animation-delay-240 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="instagram" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.youtube.com/@kyeboard"
-            class="animate-rise opacity-0 animation-delay-250"
+            class="animate-rise opacity-0 animation-delay-250 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="youtube" class="mr-4" size="20" />
         </a>
         <a
             href="mailto:me@kyeboard.me"
-            class="animate-rise opacity-0 animation-delay-260"
+            class="animate-rise opacity-0 animation-delay-260 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="mail" class="mr-4" size="20" />
         </a>
         <a
             href="https://www.github.com/sponsors/kyeboard"
-            class="animate-rise opacity-0 animation-delay-260"
+            class="animate-rise opacity-0 animation-delay-260 flex-grow sm:flex-grow-0"
         >
             <vue-feather type="heart" class="mr-4" size="20" />
         </a>
     </div>
-    <img
-        src="/arrow.png"
-        alt="Arrow"
-        class="arrow absolute top-1/2 w-28 left-1/3 rotate-[60deg] animate-rise opacity-0"
-    />
-    <div
-        class="dot w-4 absolute top-44 left-[40rem] h-4 bg-peach rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-4 absolute top-52 left-[60rem] h-4 bg-green rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-5 absolute top-[30rem] left-[55rem] h-5 bg-blue rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-2 absolute top-[35rem] left-[60rem] h-2 bg-red rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-5 absolute right-[10rem] top-[10rem] h-5 bg-sky rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-2 absolute right-[15rem] top-[20rem] h-2 bg-teal rounded-full absolute animate-grow"
-    ></div>
-    <div
-        class="dot w-3 absolute right-[15rem] bottom-[10rem] h-3 bg-teal rounded-full absolute animate-grow"
-    ></div>
+    <div class="wrapper hidden sm:block">
+        <img
+            src="/arrow.png"
+            alt="Arrow"
+            class="arrow absolute top-1/2 w-28 left-1/3 rotate-[60deg] animate-rise opacity-0"
+        />
+        <div
+            class="dot w-4 absolute top-44 left-[40rem] h-4 bg-peach rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-4 absolute top-52 left-[60rem] h-4 bg-green rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-5 absolute top-[30rem] left-[55rem] h-5 bg-blue rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-2 absolute top-[35rem] left-[60rem] h-2 bg-red rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-5 absolute right-[10rem] top-[10rem] h-5 bg-sky rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-2 absolute right-[15rem] top-[20rem] h-2 bg-teal rounded-full animate-grow"
+        ></div>
+        <div
+            class="dot w-3 absolute right-[15rem] bottom-[10rem] h-3 bg-teal rounded-full animate-grow"
+        ></div>
+    </div>
 </template>
 
 <script lang="ts" setup>
